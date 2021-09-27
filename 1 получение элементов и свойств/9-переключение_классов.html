@@ -25,6 +25,7 @@
     чтобы где класс green есть, его не стало, а где нету, чтобы появился.
     -->
     <script>
+        'use strict';
         let iTag = document.querySelectorAll('i');
         for (let i = 0; i < iTag.length; i++) {
             iTag[i].classList.toggle('green')
